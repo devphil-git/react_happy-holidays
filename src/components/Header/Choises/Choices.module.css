@@ -1,4 +1,9 @@
-.button {
+.wrapper {
+   position: relative;   
+}
+
+.button,
+.list {
    width: 300px;
    height: 65px;
    font-size: 18px;
@@ -7,6 +12,31 @@
    background-color: #00c78b;
    border: none;
    border-radius: 30px;
+   transition: all 0.3s ease-in-out;
+}
+
+.button:hover,
+.list:hover {
+   background-color: #00a9c7;
+}
+
+.list {
+   position: absolute;
+   width: 300px;
+   height: auto;
+   padding: 30px 52px;
+   top: 68px;
+   left: 0;
+}
+
+.item {
+   cursor: pointer;
+   line-height: 36px;
+   margin-bottom: 10px;
+}
+
+.item:last-child {
+   margin-bottom: 0;
 }
 
 @media (max-width: 1024px) {

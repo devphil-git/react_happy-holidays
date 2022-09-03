@@ -27,7 +27,13 @@
    background-color: #00c78b;
    border: none;
    border-radius: 30px;
+   transition: all 0.3s ease-in-out;
 }
+
+.button:hover {
+   background-color: #00a9c7;
+}
+
 
 @media (max-width: 1024px) {
    .wrapper {

@@ -11,29 +11,29 @@ const Footer = () => {
          <Container>
             <div className={styles.wrapper}>
                <div className={styles.contacts}>
-                  <p>Design: <a href="#">Anastasia Ilina</a></p>
-                  <p>Сoder: <a href="#">My Contacts</a></p>
+                  <p>Design: <a href="https://t.me/Mrshmallowww">Anastasia Ilina</a></p>
+                  <p>Сoder: <a href="https://github.com/devphil-git">My Contacts</a></p>
                   <p>© HBCard, 2022</p>
                </div>
 
                <ul className={styles.social}>
                   <li className={styles.item}>
-                     <a href="#" className={styles.link}>
+                     <a href="https://vk.com/feed" className={styles.link}>
                         <VkIcon />
                      </a>
                   </li>
                   <li className={styles.item}>
-                     <a href="#" className={styles.link}>
+                     <a href="https://telegram.org/" className={styles.link}>
                         <TgIcon />
                      </a>
                   </li>
                   <li className={styles.item}>
-                     <a href="#" className={styles.link}>
+                     <a href="https://pinterest.com/" className={styles.link}>
                         <PinIcon />
                      </a>
                   </li>
                   <li className={styles.item}>
-                     <a href="#" className={styles.link}>
+                     <a href="https://www.stumbleupon.com/" className={styles.link}>
                         <StumIcon />
                      </a>
                   </li>
