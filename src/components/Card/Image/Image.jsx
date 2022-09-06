@@ -1,13 +1,14 @@
+import { useContext } from "react";
+import { imgContext } from "../../../context/imgContext";
 import styles from "./Image.module.css";
-import CardImage from "../../../img/card-bg.jpg";
-// import { imgContext } from "../../../context/imgContext";
+// import CardImage from "../../../img/card-bg.jpg";
 
 const Image = () => {
 
-   // const img = useContext(imgContext);
+   const {urlImg} = useContext(imgContext);
 
    return(
-      <img className={styles.image} src={CardImage} alt="" />
+      <img className={styles.image} src={urlImg} alt="" />
    )
 }
 

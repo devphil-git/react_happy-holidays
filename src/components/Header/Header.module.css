@@ -34,6 +34,10 @@
    background-color: #00a9c7;
 }
 
+.button:disabled {
+   background-color: #e2e2e2;
+}
+
 
 @media (max-width: 1024px) {
    .wrapper {
